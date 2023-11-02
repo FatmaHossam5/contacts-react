@@ -1,0 +1,97 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+.container-fluid{
+  background-image: url(./imgs/WhatsApp\ Image\ 2023-10-23\ at\ 3.36.14\ PM.jpeg);
+  background-size: cover;
+  overflow: hidden;
+  
+}
+#search{
+  width: 100%;
+  border-radius: 15px;
+  border-color: white;
+  border-style: none;
+}
+.Add{
+  border-style: none;
+  border-radius: 20px;
+ padding: 13px;
+ color: white;
+ background-color: #1BB0F0;
+}
+.getCont{
+  justify-content: space-between;
+}
+.edit , .delete{
+  width: 35px;
+  height:35px;
+  background-color: white;
+  margin-top: 35px;
+  border-radius: 3px;
+ 
+}
+.edit i , .delete i {
+  transform: translate(10px,5px);
+}
+.delete i{
+  color: #ee2e2e;
+  
+}
+.edit i
+{
+  color: #1BB0F0;
+}
+/* .line::after{
+  content: " ";
+  width: 63%;
+  height: 1px;
+  background-color: white;
+  position: absolute;
+  left: 16%;
+  top:71%
+} */
+.container{
+ border-radius: 15px;
+}
+.hr{
+  width: 63%;
+  height: 1px;
+color: white;
+  position: absolute;
+  left: 16%;
+  top:68%
+}
+.profImg img{
+  transform: translateX(330%);
+}
+.contadd{
+  overflow: hidden;
+}
+.names{
+  justify-content: space-evenly;
+ 
+}
+.input{
+  border-radius: 15px;
+  width: 330px;
+  border-style: none;
+  background-color: #F5F5F5;
+}
+.nums{
+  justify-content: space-evenly;
+}
+
+.btns{
+  justify-content: space-between;
+}
