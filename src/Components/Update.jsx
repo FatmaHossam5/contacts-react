@@ -8,6 +8,7 @@ export default function Update() {
 
     const[contact,setContact]=useState({'firstName':"","lastName":"","email":"","phone":"","app-id":"64fc4a747b1786417e354f31",id:id})
     const navigate =useNavigate()
+    useEffect(()=>{axios.get("https://dummyapi.io/data/v1/user/").then(res=>setContact(res.data)).catch(err=>console.log(err))},[])
    
     
     async function updateContact(e){
@@ -21,7 +22,6 @@ export default function Update() {
 
   
     }
-    // useEffect(()=>{axios.get("https://dummyapi.io/data/v1/user/").then(res=>setContact(res.data)).catch(err=>console.log(err))},[])
   return (<>
    <div className="container-fluid vh-100">
     <div className="container contadd bg-white col-md-8 my-5">
